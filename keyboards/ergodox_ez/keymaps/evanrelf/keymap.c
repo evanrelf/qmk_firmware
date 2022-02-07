@@ -109,10 +109,6 @@ qk_tap_dance_action_t tap_dance_actions[] = {
     [TD_MUSIC] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, tap_dance_music_finished, tap_dance_music_reset),
 };
 
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    return true;
-}
-
 // Runs just one time when the keyboard initializes.
 void keyboard_post_init_user(void) {
 #ifdef RGBLIGHT_COLOR_LAYER_0
