@@ -6,7 +6,13 @@ enum layers {
     ALT,
 };
 
-enum {
+// enum custom_keycodes {
+//     FOO = SAFE_RANGE,
+//     BAR,
+//     BAZ,
+// };
+
+enum tap_dances {
     TD_MUSIC,
 };
 
