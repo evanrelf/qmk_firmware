@@ -34,14 +34,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                 `--------------------'       `--------------------'
  */
 [BASE] = LAYOUT_ergodox_pretty(
-  KC_GRAVE              , KC_1                  , KC_2                  , KC_3                  , KC_4                  , KC_5                  , XXXXXXX               , /**/ XXXXXXX               , KC_6                  , KC_7                  , KC_8                  , KC_9                  , KC_0                  , XXXXXXX               ,
-  KC_TAB                , KC_Q                  , KC_W                  , KC_E                  , KC_R                  , KC_T                  , KC_MINUS              , /**/ KC_EQUAL              , KC_Y                  , KC_U                  , KC_I                  , KC_O                  , KC_P                  , KC_BACKSLASH          ,
-  KC_ESCAPE             , KC_A                  , KC_S                  , KC_D                  , KC_F                  , KC_G                  ,                         /**/                         KC_H                  , KC_J                  , KC_K                  , KC_L                  , KC_SEMICOLON          , KC_QUOTE              ,
-  KC_LEFT_SHIFT         , KC_Z                  , KC_X                  , KC_C                  , KC_V                  , KC_B                  , KC_LEFT_BRACKET       , /**/ KC_RIGHT_BRACKET      , KC_N                  , KC_M                  , KC_COMMA              , KC_DOT                , KC_SLASH              , KC_RIGHT_SHIFT        ,
-  LCAG_T(XXXXXXX)       , KC_LEFT_CTRL          , KC_LEFT_ALT           , KC_LEFT_GUI           , KC_SPACE              ,                                                 /**/                                                 KC_BACKSPACE          , KC_RIGHT_GUI          , KC_RIGHT_ALT          , KC_RIGHT_CTRL         , LCAG_T(XXXXXXX)       ,
-                                                                                                                          XXXXXXX               , RESET                 , /**/ XXXXXXX               , XXXXXXX               ,
-                                                                                                                                                  XXXXXXX               , /**/ XXXXXXX               ,
-                                                                                                  TD(TD_MUSIC)          , LT(ALT, XXXXXXX)      , XXXXXXX               , /**/ XXXXXXX               , LT(ALT, XXXXXXX)      , KC_ENTER
+    KC_GRAVE              , KC_1                  , KC_2                  , KC_3                  , KC_4                  , KC_5                  , XXXXXXX               , /**/ XXXXXXX               , KC_6                  , KC_7                  , KC_8                  , KC_9                  , KC_0                  , XXXXXXX               ,
+    KC_TAB                , KC_Q                  , KC_W                  , KC_E                  , KC_R                  , KC_T                  , KC_MINUS              , /**/ KC_EQUAL              , KC_Y                  , KC_U                  , KC_I                  , KC_O                  , KC_P                  , KC_BACKSLASH          ,
+    KC_ESCAPE             , KC_A                  , KC_S                  , KC_D                  , KC_F                  , KC_G                  ,                         /**/                         KC_H                  , KC_J                  , KC_K                  , KC_L                  , KC_SEMICOLON          , KC_QUOTE              ,
+    KC_LEFT_SHIFT         , KC_Z                  , KC_X                  , KC_C                  , KC_V                  , KC_B                  , KC_LEFT_BRACKET       , /**/ KC_RIGHT_BRACKET      , KC_N                  , KC_M                  , KC_COMMA              , KC_DOT                , KC_SLASH              , KC_RIGHT_SHIFT        ,
+    LCAG_T(XXXXXXX)       , KC_LEFT_CTRL          , KC_LEFT_ALT           , KC_LEFT_GUI           , KC_SPACE              ,                                                 /**/                                                 KC_BACKSPACE          , KC_RIGHT_GUI          , KC_RIGHT_ALT          , KC_RIGHT_CTRL         , LCAG_T(XXXXXXX)       ,
+                                                                                                                            XXXXXXX               , RESET                 , /**/ XXXXXXX               , XXXXXXX               ,
+                                                                                                                                                    XXXXXXX               , /**/ XXXXXXX               ,
+                                                                                                    TD(TD_MUSIC)          , LT(ALT, XXXXXXX)      , XXXXXXX               , /**/ XXXXXXX               , LT(ALT, XXXXXXX)      , KC_ENTER
 ),
 /* Keymap 1: Alt
  *
@@ -65,44 +65,44 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                 `--------------------'       `--------------------'
  */
 [ALT] = LAYOUT_ergodox_pretty(
-  _______               , KC_F1                 , KC_F2                 , KC_F3                 , KC_F4                 , KC_F5                 , KC_F6                 , /**/ KC_F7                 , KC_F8                 , KC_F9                 , KC_F10                , KC_F11                , KC_F12                , _______               ,
-  _______               , _______               , _______               , _______               , _______               , _______               , _______               , /**/ _______               , _______               , _______               , _______               , KC_UP                 , _______               , _______               ,
-  _______               , _______               , _______               , _______               , _______               , _______               ,                         /**/                         KC_LEFT               , KC_DOWN               , KC_UP                 , KC_RIGHT              , _______               , _______               ,
-  _______               , _______               , _______               , _______               , _______               , _______               , _______               , /**/ _______               , KC_DOWN               , _______               , _______               , _______               , _______               , _______               ,
-  _______               , _______               , _______               , _______               , _______               ,                                                 /**/                                                 _______               , _______               , _______               , _______               , _______               ,
-                                                                                                                          _______               , _______               , /**/ _______               , _______               ,
-                                                                                                                                                  _______               , /**/ _______               ,
-                                                                                                  _______               , _______               , _______               , /**/ _______               , _______               , _______
+    _______               , KC_F1                 , KC_F2                 , KC_F3                 , KC_F4                 , KC_F5                 , KC_F6                 , /**/ KC_F7                 , KC_F8                 , KC_F9                 , KC_F10                , KC_F11                , KC_F12                , _______               ,
+    _______               , _______               , _______               , _______               , _______               , _______               , _______               , /**/ _______               , _______               , _______               , _______               , KC_UP                 , _______               , _______               ,
+    _______               , _______               , _______               , _______               , _______               , _______               ,                         /**/                         KC_LEFT               , KC_DOWN               , KC_UP                 , KC_RIGHT              , _______               , _______               ,
+    _______               , _______               , _______               , _______               , _______               , _______               , _______               , /**/ _______               , KC_DOWN               , _______               , _______               , _______               , _______               , _______               ,
+    _______               , _______               , _______               , _______               , _______               ,                                                 /**/                                                 _______               , _______               , _______               , _______               , _______               ,
+                                                                                                                            _______               , _______               , /**/ _______               , _______               ,
+                                                                                                                                                    _______               , /**/ _______               ,
+                                                                                                    _______               , _______               , _______               , /**/ _______               , _______               , _______
 ),
 };
 // clang-format on
 
 void tap_dance_music_finished(qk_tap_dance_state_t* state, void* user_data) {
-  switch (state->count) {
-    case 1:
-      register_code(KC_MEDIA_PLAY_PAUSE);
-      break;
-    case 2:
-      register_code(KC_MEDIA_NEXT_TRACK);
-      break;
-    case 3:
-      register_code(KC_MEDIA_PREV_TRACK);
-      break;
-  }
+    switch (state->count) {
+        case 1:
+            register_code(KC_MEDIA_PLAY_PAUSE);
+            break;
+        case 2:
+            register_code(KC_MEDIA_NEXT_TRACK);
+            break;
+        case 3:
+            register_code(KC_MEDIA_PREV_TRACK);
+            break;
+    }
 }
 
 void tap_dance_music_reset(qk_tap_dance_state_t* state, void* user_data) {
-  switch (state->count) {
-    case 1:
-      unregister_code(KC_MEDIA_PLAY_PAUSE);
-      break;
-    case 2:
-      unregister_code(KC_MEDIA_NEXT_TRACK);
-      break;
-    case 3:
-      unregister_code(KC_MEDIA_PREV_TRACK);
-      break;
-  }
+    switch (state->count) {
+        case 1:
+            unregister_code(KC_MEDIA_PLAY_PAUSE);
+            break;
+        case 2:
+            unregister_code(KC_MEDIA_NEXT_TRACK);
+            break;
+        case 3:
+            unregister_code(KC_MEDIA_PREV_TRACK);
+            break;
+    }
 }
 
 qk_tap_dance_action_t tap_dance_actions[] = {
